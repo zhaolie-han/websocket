@@ -38,7 +38,7 @@ agent.onopen = (event) => {
 }
 
 agent.onmessage = (event) => {
-  console.log('Recived message', event.data);
+  console.log('Received message', event.data);
 };
 
 agent.onerror = (event) => {
